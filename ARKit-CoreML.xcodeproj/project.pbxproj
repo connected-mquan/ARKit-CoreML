@@ -15,6 +15,7 @@
 		F444E91D2073C2B400F3637D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F444E91B2073C2B400F3637D /* LaunchScreen.storyboard */; };
 		F444E9282073C2B400F3637D /* ARKit_CoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444E9272073C2B400F3637D /* ARKit_CoreMLTests.swift */; };
 		F444E9332073C2B400F3637D /* ARKit_CoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F444E9322073C2B400F3637D /* ARKit_CoreMLUITests.swift */; };
+		F444E9412073C40600F3637D /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F444E9402073C40600F3637D /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F444E92E2073C2B400F3637D /* ARKit-CoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-CoreMLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F444E9322073C2B400F3637D /* ARKit_CoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_CoreMLUITests.swift; sourceTree = "<group>"; };
 		F444E9342073C2B400F3637D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F444E9402073C40600F3637D /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				F444E9102073C2B200F3637D /* AppDelegate.swift */,
 				F444E9122073C2B200F3637D /* art.scnassets */,
 				F444E9142073C2B200F3637D /* ViewController.swift */,
+				F444E9402073C40600F3637D /* MobileNet.mlmodel */,
 				F444E9162073C2B200F3637D /* Main.storyboard */,
 				F444E9192073C2B400F3637D /* Assets.xcassets */,
 				F444E91B2073C2B400F3637D /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			files = (
 				F444E9152073C2B200F3637D /* ViewController.swift in Sources */,
 				F444E9112073C2B200F3637D /* AppDelegate.swift in Sources */,
+				F444E9412073C40600F3637D /* MobileNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
